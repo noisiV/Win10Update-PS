@@ -19,4 +19,4 @@ if ($winVer -eq 10)
     
 sleep 10
 
-Remove-Item "C:\_Windows_FU" -Recurse -Force -Confirm:$false
+Remove-Item "C:\WindowsForceUpdate" -Recurse -Force -Confirm:$false
